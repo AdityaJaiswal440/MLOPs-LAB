@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/jaisw/AI-Enginnering (ML+DSA)/MLOPs/MLOPs LAB/mlruns/1/models/m-b85d7cef02484921b0eefa7fb41b7ee2/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.15.1
+model_id: m-b85d7cef02484921b0eefa7fb41b7ee2
+model_size_bytes: 9205
+model_uuid: m-b85d7cef02484921b0eefa7fb41b7ee2
+prompts: null
+run_id: 1f8b614ef72b4758a2b2a17bfef793c0
+utc_time_created: '2026-08-09 17:30:09.945714'
